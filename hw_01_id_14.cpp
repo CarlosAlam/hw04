@@ -6,10 +6,10 @@
 #include <iostream>//libreria
 using namespace std;
 int main(){
-	int k,l,m;//variable tipo entero
-	double o,p,q;//variable tipo doble
-	char  x,w,z;//variable tipo caracter
-    double a,b,c;//tres variables para calcular el promedio de los datos de entrada
+	int k,l,m,a;//variable tipo entero
+	double o,p,q,b;//variable tipo doble
+	char  x,w,z,c;//variable tipo caracter
+    //tres variables para calcular el promedio de los datos de entrada
  	cout<<"Escribe 3 numeros"<<endl;//imprimimos mensaje para que el usuario ingrese un numero
 	cin>> k; cin>>l; cin>>m;//el valor que ingresa lo guardamos en la variable k,l,m
     cout<<"Escribe 3 numeros"<<endl;
@@ -19,8 +19,8 @@ int main(){
     a= (k+l+m)/3;//hacemos la operacion para calcular el promedio 
     b= (o+p+q)/3;
 	c= (x+w+z)/3;
-    cout<<"el primer promedio es\t"<<a<<endl;//imprimimos el valor del promedio
+    cout<<"el primer promedio es\t"<< a<<endl;//imprimimos el valor del promedio
     cout<<"el segundo promedio es\t"<<b<<endl;
-    cout<<"el tercer promedio es\t"<<c <<endl;
+    cout<<"el tercer promedio es\t"<< c <<endl;
 	return 0;
 }

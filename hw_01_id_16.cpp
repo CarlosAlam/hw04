@@ -1,19 +1,23 @@
-// Author:
-// Date:
-// Version:
+// Author:Martínez Castillo Carlos Alam
+// Date:22/02/15
+// Version:1.0
 
-/*
-Homework DD
-this assignment  ...
-*/
-
+//Carlos Alam Martínez Castillo
 #include <iostream>
-
-int main ()
+#include <conio.h>
+using namespace std;
+int main()
 {
-  // TODO your code here!!!!
+	int a;
+	float b;
+	double c;
+    cout<<("introduce los valores")<<endl;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    cout<<(a+b+c)/3<<endl;
 
-  std::cout<<"Hello world!!" <<std::endl;
 
-  return 0;
+system("pause"); 
+return 0; 
 }
